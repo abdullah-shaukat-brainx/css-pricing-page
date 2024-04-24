@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size:calc(12px + 0.5vw);
+    color: #3b3663;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.nav-bar{
+    position: fixed;
+    right: 0;
+    top:10vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-bar button {
+    background-color: black;
+    color: green;
+    height: 10vh;
+    width: 5vw;
+}
+.nav-bar button i, .nav-bar button div  {
+    color: rgb(50, 51, 48);
+}
+.nav-bar button i:hover, .nav-bar button div:hover  {
+    color: rgb(255, 255, 255);
+}
+
+.header{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 5vh;
+}
+.container{
+    height: 100%;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 2vh 2vh 2vh 2vh;
+    width: 17vw;
+    height:calc(100px + 27vh);
+    /* min-width: 160px;
+    min-height: 60px; */
+    border: 0.5vh rgb(214, 214, 214) solid;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+.card1,.card3{
+    margin-top: 5vh;
+}
+.card2{ /* Designing of Middle Card*/
+    height:calc(100px + 30vh);
+    padding-bottom: 5vh;
+    border: 0.5vh #0abf53 solid;
+    
+}
+.card-header, .price, .duration{
+    color:#3b3663;
+    text-align: center;
+    padding: 0.2vw;
+}
+.card-header{
+    margin-top: 1vw;
+    align-self: center;
+    font-weight: bold;
+    font-size:calc(10px + 1vw);
+    /* min-width:calc(100px + 1.5vw); */
+}
+.price{
+    color:#3b3663;
+    font-size:calc(10px + 0.5vw);
+    /* min-width:calc(100px + 1.5vw); */
+}
+.duration{
+    margin-top: 1vw;
+    align-self: center;
+    width: 8vw;
+    border:0.1vw solid rgb(214, 214, 214);
+    border-radius: 50px;
+    color:#0abf53;
+    font-weight: bold;
+    font-size:calc(5px + 0.5vw);
+    /* min-width:100px; */
+}
+.features{
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+    color: #9c9c9c;
+}
+.features li, .features li b{
+    color: #8a8a8a;
+    margin-bottom: 1vh;
+    font-size:calc(10px + 0.5vw);
+}
+ul.feature-list{
+    list-style: none;
+}
+ul.feature-list li:before{
+    color: #0abf53;
+    content: "\27bd \0020";
+    font-size:calc(10px + 0.3vw);
+}
+.button-container{
+    padding-top: 3vw;
+    align-self: center;
+}
+.side-card-button{
+    background-color:rgba(rgb(202, 198, 198), green, blue, alpha);
+    height:calc(10px + 3vh);
+    width:calc(50px + 4vw);
+    font-size: calc(10px + 0.5vw);
+    border: 20px;
+    color: #0abf53;
+    border-radius: 5px;
+}
+
+.middle-card-button, .side-card-button:hover{
+    background-color:#0abf53;
+    height:calc(10px + 3vh);
+    width:calc(50px + 4vw);
+    font-size: calc(10px + 0.5vw);
+    border: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card1:hover, .card3:hover{
+    margin-top:-20px;
+    transition: 0.5ss;
+}
+.card2:hover{
+    margin-top:-50px;
+    transition: 0.5ss;
+}
+.footer{
+    bottom: 0;
+}
+
+.parent-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
