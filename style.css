@@ -13,16 +13,16 @@
     display: flex;
     flex-direction: column;
 }
-.nav-bar button {
+.nav-bar button{
     background-color: black;
     color: green;
     height: 10vh;
     width: 5vw;
 }
-.nav-bar button i, .nav-bar button div  {
+.nav-bar button i, .nav-bar button div{
     color: rgb(50, 51, 48);
 }
-.nav-bar button i:hover, .nav-bar button div:hover  {
+.nav-bar button i:hover, .nav-bar button div:hover{
     color: rgb(255, 255, 255);
 }
 
@@ -47,8 +47,6 @@
     margin: 2vh 2vh 2vh 2vh;
     width: 17vw;
     height:calc(100px + 27vh);
-    /* min-width: 160px;
-    min-height: 60px; */
     border: 0.5vh rgb(214, 214, 214) solid;
     border-radius: 0.5vw;
     display: flex;
@@ -74,12 +72,10 @@
     align-self: center;
     font-weight: bold;
     font-size:calc(10px + 1vw);
-    /* min-width:calc(100px + 1.5vw); */
 }
 .price{
     color:#3b3663;
     font-size:calc(10px + 0.5vw);
-    /* min-width:calc(100px + 1.5vw); */
 }
 .duration{
     margin-top: 1vw;
@@ -90,7 +86,6 @@
     color:#0abf53;
     font-weight: bold;
     font-size:calc(5px + 0.5vw);
-    /* min-width:100px; */
 }
 .features{
     margin-top: 1.5vw;
@@ -146,7 +141,7 @@ ul.feature-list li:before{
     bottom: 0;
 }
 
-.parent-div{
+.main-div{
     display: flex;
     flex-direction: column;
     align-items: center;
